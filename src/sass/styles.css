@@ -1,0 +1,56 @@
+.query-to-axios {
+    /* border-style: none; */
+    outline: 5px;
+    border-style: solid ;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submit{
+    /* border-style: none; */
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: rgb(192, 214, 248);
+    height: 30px;
+
+}
+  .newsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+   }
+
+  .article-img{
+    display: inline-block;
+    width: 400px;
+  }
+
+  .article-description{
+    width: 400px;
+  }
+  .article-title{
+    width: 400px;
+  }
+
+  .article-card{
+    /* display: flex; */
+    padding: 10px;
+    background-color: rgb(222, 232, 245);
+    width: 400px;
+    border-radius: 20px;
+  }
+  
+  .is-hidden{
+    display: none;
+    pointer-events: none;
+    visibility: 1;
+  }
